@@ -14,6 +14,14 @@ body {
     background: #010101;
 }
 
+body::after {
+    height: 0;
+    content: "Artwork created by @sawaratsuki1004";
+    color: rgba(255, 255, 255, 0.2);
+    font-family: monospace;
+    font-size: 18px;
+}
+
 img {
     display: inline-flex;
     margin: 0 auto;
